@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unsplash Prompt Image Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>Unsplash Image Search</h1>
+    <p class="subtitle">Type a prompt and press Enter to find 10 images.</p>
+
+    <form id="searchForm" class="search-bar">
+      <input
+        id="promptInput"
+        type="text"
+        placeholder="You can search up any image throught here as long as its not inapropriate."
+        autocomplete="off"
+        required
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <section id="status" class="status" aria-live="polite"></section>
+    <section id="results" class="results hidden"></section>
+  </main>
+
+  <script src="sketch.js" defer></script>
+</body>
+</html>

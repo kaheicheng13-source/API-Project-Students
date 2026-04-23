@@ -1,0 +1,5 @@
+Talkative AI is a web-based interface that brings together ChatGPT, Gemini, and Claude in a single platform for text-based conversation and image generation. At present, ChatGPT and Gemini support both text prompting and image generation, while Claude is available for text prompting only.
+
+The original student code supported text prompting with ChatGPT and Gemini, along with image generation through ChatGPT. I later debugged and expanded the project to enable Gemini image generation and Claude text prompting as well.
+
+The interface also includes light and dark modes for user comfort, along with dropdown menus that allow users to easily switch between different AI engines.

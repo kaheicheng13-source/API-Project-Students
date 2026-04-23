@@ -27,9 +27,9 @@ async function sendToAI({ service, mode, systemPrompt, prompt, conversationHisto
   }
 }
 
-// ==========================
+
 // IMAGE GENERATION - OPENAI
-// ==========================
+
 
 async function generateImageOpenAI(prompt) {
   try {
@@ -67,9 +67,9 @@ async function generateImageOpenAI(prompt) {
   }
 }
 
-// ==========================
+
 // IMAGE GENERATION - GEMINI
-// ==========================
+
 
 async function generateImageGemini(prompt) {
   try {
@@ -129,9 +129,9 @@ async function generateImageGemini(prompt) {
   }
 }
 
-// ==========================
+
 // TEXT GENERATION - GEMINI
-// ==========================
+
 
 async function callGemini(systemPrompt, conversationHistory) {
   try {
@@ -184,9 +184,9 @@ async function callGemini(systemPrompt, conversationHistory) {
   }
 }
 
-// ==========================
+
 // TEXT GENERATION - OPENAI
-// ==========================
+
 
 async function callOpenAI(systemPrompt, conversationHistory) {
   try {
@@ -234,9 +234,9 @@ async function callOpenAI(systemPrompt, conversationHistory) {
   }
 }
 
-// ==========================
+
 // TEXT GENERATION - CLAUDE
-// ==========================
+
 
 async function callClaude(systemPrompt, conversationHistory) {
   try {
